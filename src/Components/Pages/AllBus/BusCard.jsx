@@ -13,7 +13,7 @@ console.log(id)
 useEffect(()=>{
   const fetchBusData = async () =>{
   try{
-    const response = await fetch(`http://localhost:5000/businfo/${id}`)
+    const response = await fetch(`https://backend-ten-lac.vercel.app/businfo/${id}`)
     const data = await response.json();
     setBusData(data)
   }catch(error){

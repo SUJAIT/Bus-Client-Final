@@ -27,7 +27,7 @@ const Search = () => {
       });
 
       // Send the API request
-      const response = await fetch(`http://localhost:5000/search?${queryParams.toString()}`);
+      const response = await fetch(`https://backend-ten-lac.vercel.app/search?${queryParams.toString()}`);
 
       if (!response.ok) {
         const errorData = await response.json();

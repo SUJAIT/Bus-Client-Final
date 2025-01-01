@@ -58,7 +58,7 @@
 //   //db Data payment send
 //   // Function to save payment details
 //   const savePaymentDetails = async (payment) => {
-//     const response = await fetch('http://localhost:5000/payments', {
+//     const response = await fetch('https://backend-ten-lac.vercel.app/payments', {
 //       method: 'POST',
 //       headers: { 'Content-Type': 'application/json' },
 //       body: JSON.stringify(payment),
@@ -78,7 +78,7 @@
 // // const headers = {
 // //   "Content-Type": "application/json"
 // // }
-// // const response = await fetch('http://localhost:5000/create-checkout-session',{
+// // const response = await fetch('https://backend-ten-lac.vercel.app/create-checkout-session',{
 // //   method: "POST",
 // //   headers:headers,
 // //   body: JSON.stringify(body)
@@ -111,7 +111,7 @@
 //     };
 
 //     try {
-//       const response = await fetch('http://localhost:5000/create-checkout-session', {
+//       const response = await fetch('https://backend-ten-lac.vercel.app/create-checkout-session', {
 //         method: 'POST',
 //         headers: headers,
 //         body: JSON.stringify(body),
@@ -232,7 +232,7 @@ const BusSeats = ({ availableSeat, seatPrice, journeyStartDate, journeyEndDate, 
   const savePaymentDetails = async (payment) => {
     console.log('Attempting to save payment:', payment);
     try {
-        const response = await fetch('http://localhost:5000/payments', {
+        const response = await fetch('https://backend-ten-lac.vercel.app/payments', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payment),
@@ -264,7 +264,7 @@ const BusSeats = ({ availableSeat, seatPrice, journeyStartDate, journeyEndDate, 
     };
 
     try {
-      const response = await fetch('http://localhost:5000/create-checkout-session', {
+      const response = await fetch('https://backend-ten-lac.vercel.app/create-checkout-session', {
         method: 'POST',
         headers: headers,
         body: JSON.stringify(body),

@@ -57,7 +57,7 @@ const onSubmit = (data)=>{
     .then(() =>{
       //data base user Information sending process start 
       const saveUser = {name:data.name, email:data.email, img:data.photoURL,phoneNumber:data.number}
-fetch("http://localhost:5000/users",{
+fetch("https://backend-ten-lac.vercel.app/users",{
   method:"POST",
   headers:{
     'content-type':'application/json'

@@ -18,7 +18,7 @@ const Ticket = () => {
     useEffect(() => {
         const fetchPaymentData = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/payment/${userEmail}`);
+                const response = await axios.get(`https://backend-ten-lac.vercel.app/payment/${userEmail}`);
                 setPaymentData(response.data);
                 setLoading(false);
             } catch (err) {
