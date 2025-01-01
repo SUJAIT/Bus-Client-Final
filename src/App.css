@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: var(--font-name);
+}
+
+
+
+.allHW{
+    max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+.w2{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.widthFull{
+  width: 100%;
+}
+.background-color{
+  background-color: #f04935;
+}
+.fontColor{
+  color: #f04935;
+}
+#br{
+    color: rgb(244, 243, 243);
+    border: 0.1px solid;
+}
+.banner{
+width: 2000px;
+height: 500px;
+}
+
+.myButton{
+  display: flex;
+  gap: 20px;
+  border: 0.1px solid rgb(221, 214, 214);
+  border-radius: 10px;
+  height: 50px;
+  width: 230px;
+  justify-content: center;
+  
+}
+.iconColor{
+  background-color: rgb(255, 68, 0);
+  color: white;
+  border-radius: 50px;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.carouselParent{
+  width: 400px;
+}
+
+.logo{
+  width: 115px;
+ 
+}
+
+.childBannerTwo{
+  margin-top: 100px;
+}
+.busNAv{
+  color: #f04935;
+}

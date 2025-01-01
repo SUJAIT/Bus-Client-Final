@@ -1,0 +1,20 @@
+.text{
+    font-size: 0.8rem;
+  }
+  
+  .ratingText{
+    margin-left: 60px;
+  }
+
+  .rightCSS{
+
+    right: 1px;
+  }
+
+  .ratingCaroselWidth{
+width: 600px;
+  }
+
+  .ratinTextW{
+    width: 460px;
+  }

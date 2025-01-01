@@ -1,0 +1,13 @@
+
+
+
+.destinationImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.iconLocation{
+    color: rgb(11, 139, 11);
+}

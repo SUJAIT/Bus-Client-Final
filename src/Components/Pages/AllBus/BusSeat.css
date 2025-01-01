@@ -1,0 +1,81 @@
+/* .bus-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .seats-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 60px;
+    background-color: #e0e0e0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .seat.selected {
+    background-color: #4caf50;
+    color: white;
+  } */
+
+
+  /* General Container Styling */
+.bus-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Seat Grid Styling */
+  .seats-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px); /* 8 seats per row */
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Seat Icon Styling */
+  .seat-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s, color 0.3s;
+  }
+  
+  /* Hover Effect */
+  .seat-icon:hover {
+    transform: scale(1.2); /* Slight enlargement on hover */
+  }
+  
+  /* Selected Seat Styling */
+  .seat-icon.selected {
+    color: #4caf50; /* Green for selected seats */
+  }
+  
+  /* Seat Number Styling */
+  .seat-number {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Optional: Mobile Responsive Grid */
+  @media (max-width: 600px) {
+    .seats-grid {
+      grid-template-columns: repeat(4, 70px); /* Adjust for smaller screens */
+    }
+  }
+  

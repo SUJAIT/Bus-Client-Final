@@ -1,0 +1,23 @@
+.boxs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.grandPa{
+    background-color: white;
+}
+
+.icon{
+    width: 60px;
+
+}
+
+.titale{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+

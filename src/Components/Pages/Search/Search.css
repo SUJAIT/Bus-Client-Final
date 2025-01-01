@@ -1,0 +1,56 @@
+/* searching part  */
+
+.inputParent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search{
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px;
+    width: 1280px;
+  height: 70px;
+  margin-top: 20px;
+  
+}
+
+.inputBox input{
+border: none;
+font-size: 0.9rem;
+color: #6e7074;
+font-weight: 500;
+}
+.inputBox input:focus{
+    outline: none;
+}
+
+.form__group-fast{
+    border-right:2px solid #ddd;
+}
+
+/* #inputBox{
+
+    height: 70px;
+    width: 260px;
+
+} */
+
+/* .input{
+    height: 40px !important;
+    width: 250px;
+ 
+} */
+
+
+/* .input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+} */
+
+/* .inputParent{
+    display: flex;
+justify-content: space-evenly;
+margin-top: 10px;
+} */

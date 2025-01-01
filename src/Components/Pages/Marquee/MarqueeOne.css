@@ -1,0 +1,11 @@
+
+.marquee{
+
+    margin-top: 15px;
+    height: 50px;
+}
+
+.marqtwo{
+    display:flex;
+    justify-content: space-evenly;
+}
